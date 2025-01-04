@@ -8,6 +8,7 @@ public class Book {
    private String title;
    private String desc;
    private double price;
+   private int publisher_id;
    private int status;
 
 }

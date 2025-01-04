@@ -43,7 +43,7 @@ public class SecurityConfiguration {
                     formLogin.loginProcessingUrl("/doLogin");
                     formLogin.usernameParameter("username");
                     formLogin.passwordParameter("password");
-                    formLogin.defaultSuccessUrl("/");
+                    formLogin.defaultSuccessUrl("/borrow");
                     formLogin.failureUrl("/login?failure=true");
                     formLogin.permitAll();
                 })
